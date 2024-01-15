@@ -14,7 +14,7 @@ const Register = () => {
     const ctxData = useContext(appCtx)
     const fnChange = (eve) => {
         const updatedInputControls = fnFieldValidation(eve, inputControls)
-        console.log(updatedInputControls);
+       
         setInputControls(updatedInputControls)
     }
     const fnRegister = () => {
