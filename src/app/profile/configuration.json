@@ -1,0 +1,56 @@
+[
+    {
+        "lbl": "Full Name",
+        "type": "text",
+        "errMsg": "",
+        "name": "fullName",
+        "value": "",
+        "criteria": [
+            "Required"
+        ]
+    },
+    {
+        "lbl": "User Id",
+        "type": "text",
+        "errMsg": "",
+        "name": "uid",
+        "value": "",
+        "readOnly": true,
+        "criteria": [
+            "Required",
+            "EmailFormat"
+        ]
+    },
+    {
+        "lbl": "Password",
+        "type": "text",
+        "errMsg": "",
+        "name": "pwd",
+        "value": "",
+        "criteria": [
+            "Required",
+            "Min5Chars"
+        ]
+    },
+    {
+        "lbl": "Phone",
+        "type": "number",
+        "errMsg": "",
+        "name": "phone",
+        "value": "",
+        "criteria": [
+            "Required",
+            "Exact10Digits"
+        ]
+    },
+    {
+        "lbl": "Address",
+        "tag": "textarea",
+        "errMsg": "",
+        "name": "address",
+        "value": "",
+        "criteria": [
+            "Required"
+        ]
+    }
+]

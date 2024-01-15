@@ -1,0 +1,29 @@
+{
+    "menuItems": [
+        {
+            "link": "/home",
+            "item": "Home",
+            "id": "home"
+        },
+        {
+            "link": "/users",
+            "item": "Users",
+            "id": "users"
+        },
+        {
+            "link": "/profile",
+            "item": "Profile",
+            "id": "profile"
+        },
+        {
+            "link": "/login",
+            "item": "Logout",
+            "id": "logout"
+        }
+    ],
+    "others": [
+        {
+            "name": "s1"
+        }
+    ]
+}
